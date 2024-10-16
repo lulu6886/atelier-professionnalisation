@@ -1,6 +1,11 @@
 body{
     display: flex;
     flex-direction: column;
+    background-color: white;
+    
+}
+main{
+    
 }
 .head{
     display:flex;
@@ -16,6 +21,8 @@ body{
     flex-direction: column;
     justify-content: center;
     width: auto;
+    background-image:url(illustration-head-line.png);
+    background-repeat: no-repeat;
 }
 .nom{
     text-align: center;
@@ -45,4 +52,13 @@ body{
     height: 40px;
     margin-top: 30px;
     gap: 15px;
+    padding-bottom: 400px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto);
+    grid-gap: 20px;
+}
+.grid > article{
+    border: 1px solid black;
 }
