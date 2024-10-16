@@ -1,31 +1,40 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
 .head{
     display:flex;
-    justify-content: space-around;
-    align-self: center ;
+    justify-content: center;
     font-family:Arial, Helvetica, sans-serif ;
+}
+.p-header{
+    margin-left: 20px;
+    margin-right: 5px;
 }
 .présentation{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    width: 920px;
-    height: 114px;
+    width: auto;
 }
-
 .nom{
     text-align: center;
     font-size: 48px;
     color: #172b4d;
+    margin-top: 100px;
+    margin-bottom: 5px;
 }
 .métier{
     text-align: center;
     font-size: 48px;
     color: #36b37e;
+    margin-top: 10px;
 }
 .paratexte{
     text-align: center;
-    width: 920px;
-    height: 96px;
+    margin-left: 60px;
+    margin-right: 60px;
+    width: auto;
     font-size: 20px;
     color: #172b4d;
 }
