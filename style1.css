@@ -4,9 +4,6 @@ body{
     background-color: white;
     
 }
-main{
-    
-}
 .head{
     display:flex;
     justify-content: center;
@@ -21,7 +18,7 @@ main{
     flex-direction: column;
     justify-content: center;
     width: auto;
-    background-image:url(illustration-head-line.png);
+    background-image:url(image/illustration-head-line.png);
     background-repeat: no-repeat;
 }
 .nom{
@@ -54,11 +51,28 @@ main{
     gap: 15px;
     padding-bottom: 400px;
 }
-.grid{
+.titre-dx-s{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+.grid-container {
     display: grid;
-    grid-template-columns: repeat(auto);
-    grid-gap: 20px;
-}
-.grid > article{
-    border: 1px solid black;
-}
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    padding: 10px;
+    background-color: #c8c9cc;
+    width:100% ;
+    height: 75%;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
+    width: 100%;
+    height: 50%;
+  }
+  .image{
+    width: 70px;
+    height: 70px;
+  }
