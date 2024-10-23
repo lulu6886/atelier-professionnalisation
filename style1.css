@@ -98,7 +98,7 @@ body{
     text-align: center;
     color: #172b4d;
     margin-top: 5px;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
   }
   .bouton{
     border-radius: 4px;
@@ -119,12 +119,25 @@ body{
     margin-top: 5%;
     margin-bottom: 30px;
   }
+  .h3-tx-s{
+    font-size: 24px;
+    text-align: center;
+    color: #172b4d;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
   .paragraphe-conteneur-tx-s{
     display: flex;
     flex-direction:row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     color: #36b37e;
-    gap: 8px;
+    gap: 10px;
+    flex-wrap: wrap; 
+    align-self: flex-end;
+  }
+  .paragraphe-individuelle{
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
   .grid-container-tx-s{
     display: grid;
@@ -138,6 +151,8 @@ body{
     border: 1px solid #D0D9D4;
     border-radius: 8px;
     align-content: center;
+    width: 369px;
+    height: 316px;
   }
   .logo-tx-s{
     width: 80px;
@@ -145,5 +160,70 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 40px;
+    margin-bottom: 40p;
+  }
+  #dernière-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px  ;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+   #text-dernière-section{
+    font-size: 30px;
+    color: #172b4d;
+    gap: 24px;
+   }
+  #formulaire-partie-Fname-LName{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-bottom: 20px;
+  }
+  #formulaire-partie-mail-textarea{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+  }
+  #First-Name{
+    width: 330px;
+    height: 48px;
+    border: 1px solid #D0D9D4;
+  }
+  #Last-Name{
+    width: 330px;
+    height: 48px;
+    border: 1px solid #D0D9D4;
+  }
+  #mail{
+    width: 684px;
+    height: 48px;
+    border: 1px solid #D0D9D4;
+  }
+  #textarea-dernière-section{
+    width: 684px;
+    height: 114px;
+    border: 1px solid #36b37f;
+  }
+  #bouton-dernière-section{
+    width: 129px;
+    height: 48;
+    background-color: #36b37f;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px;
+    gap: 10px;
+  }
+  .logo-footer{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 40px;
+    margin-top: 30px;
+    gap: 15px;
+    color: #505F79;
+    padding: 0%;
   }
