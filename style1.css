@@ -126,6 +126,20 @@ body{
     margin-top: 20px;
     margin-bottom: 15px;
   }
+  #Skills{
+    padding-bottom: 5px;
+    font-size: 24px;
+    text-align: center;
+    color: #172b4d;
+  }
+  #logo-skills{
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+  }
   .paragraphe-conteneur-tx-s{
     display: flex;
     flex-direction:row;
