@@ -118,6 +118,9 @@ body{
     margin-bottom: 50px;
     margin-top: 10px;
   }
+  .bouton:hover{
+    opacity: 0.5;
+  }
   .troisième-section{
     display: flex;
     justify-content: center;
@@ -240,6 +243,9 @@ body{
     padding: 12px;
     gap: 10px;
   }
+  #bouton-dernière-section:hover{
+    opacity: 0.5;
+  }
   .logo-footer{
     display: flex;
     justify-content: center;
@@ -348,6 +354,7 @@ body{
   background: #EBF0EE;
   border-radius: 4px;
   padding: 2px;
+  gap: 3px;
 }
     .grid-container-tx-s{
       display: grid;
