@@ -43,6 +43,7 @@ body{
     font-size: 20px;
     color: #172b4d;
     margin: 2px;
+    text-align: center;
     align-self: center;
 }
 .logo{
@@ -54,6 +55,9 @@ body{
     gap: 15px;
     padding-bottom: 400px;
     color: #505F79;
+}
+.logo-hover:hover{
+  opacity: 0.5;
 }
 .titre-dx-et-tx-s{
     display: flex;
@@ -136,15 +140,16 @@ body{
     text-align: center;
     color: #172b4d;
     margin-top: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
   }
-  #Skills{
+  .Skills{
     padding-bottom: 5px;
     font-size: 24px;
     text-align: center;
     color: #172b4d;
   }
-  #logo-skills{
+  .logo-skills{
     width: 80px;
     height: 80px;
     display: block;
@@ -155,22 +160,23 @@ body{
   .paragraphe-conteneur-tx-s{
     display: flex;
     flex-direction:row;
-    justify-content: space-around;
+    justify-content: center;
     color: #36b37e;
     flex-wrap: wrap; 
     align-self: flex-end;
   }
   .paragraphe-individuelle{
     padding: 5px;
+    margin: 5px;
+    margin-bottom: 5px;
     border-radius: 8px;
     background-color:#ffffff ;
   }
   .grid-container-tx-s{
     display: grid;
-    grid-template-columns: 400px 400px 400px;
-    grid-template-rows: 400px;
-    gap: 10px;
-    width:85%;
+    grid-template-columns: 369px 369px 369px;
+    grid-template-rows: 369px;
+    gap: 20px;
     justify-content: center;
   }
   .grid-item-tx-s{
@@ -178,7 +184,6 @@ body{
     border: 1px solid #D0D9D4;
     border-radius: 8px;
     align-content: center;
-    width: 85%;
     height: 316px;
   }
   .logo-tx-s{
@@ -274,31 +279,42 @@ body{
     background-size: 100%;
     background-position: top center;
     place-self: center;
+    height: 653px;
   }
+  .head{
+    display:none;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif ;
+    padding-bottom: 20px;
+}
   .nom{
     text-align: center;
-    font-size: 18px;
+    font-size: 40px;
     color: #172b4d;
     padding-top: 0%;
     padding-bottom: 0%;;
     margin: 0%;
+    width: 327px;
   }
   .métier{
     text-align: center;
-    font-size: 18px;
+    font-size: 40px;
     color: #36b37e;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 4%;
+    justify-content: center;
+    width: 327px;
   }
   .paratexte{
     display: flex;
     justify-content: center;
-    width: 60%;
-    font-size: 10px;
+    width: 327px;
+    height: 100px;
+    font-size: 20px;
     color: #172b4d;
     margin: 4px;
-    align-self: center;
-}
+    text-align: center;
+  }
   .logo{
     display: flex;
     justify-content: center;
@@ -311,13 +327,13 @@ body{
   .titre-dx-et-tx-s{
     display: flex;
     justify-content: center;
-    font-size: 25px;
+    font-size: 40px;
     color: #172b4d;
   }   
     .grid-container {
       display: grid;
-      grid-template-columns: 100%;
-      grid-template-rows: 300px;
+      grid-template-columns: 327px;
+      grid-template-rows: 474px;
       place-self: center;
       justify-content: center;
     }
@@ -326,22 +342,31 @@ body{
       border: 1px solid #D0D9D4;
       border-radius: 8px;
       align-content: flex-end;
-      width: 300px;
-      height: 300px;
+      width: 327px;
+      height: 474px;
     }
     .image{
-  width: 300px;
-  height: 157px;
+  width: 327px;
+  height: 252px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 .titre-h3{
-  font-size: 14px;
+  font-size: 24px;
+  font-family: Inter;
   text-align: center;
   color: #172b4d;
   margin-top: 5px;
   margin-bottom: 5px;
+}
+.language-conteneur{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  color: #172b4d;
+  font-family: Inter; 
+  gap: 8px;
 }
 .bouton{
   border-radius: 4px;
