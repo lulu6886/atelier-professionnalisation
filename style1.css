@@ -97,6 +97,7 @@ body{
 .bordure-conteneur{
   background: #EBF0EE;
   border-radius: 4px;
+  padding: 8px;
 }
   .titre-h3{
     font-size: 24px;
@@ -144,20 +145,20 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 30px;
+    padding-top: 20px;
   }
   .paragraphe-conteneur-tx-s{
     display: flex;
     flex-direction:row;
     justify-content: space-around;
     color: #36b37e;
-    gap: 10px;
     flex-wrap: wrap; 
     align-self: flex-end;
   }
   .paragraphe-individuelle{
-    margin-top: 5px;
-    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color:#ffffff ;
   }
   .grid-container-tx-s{
     display: grid;
@@ -167,7 +168,7 @@ body{
     gap: 30px;
   }
   .grid-item-tx-s{
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #EBF0EE;
     border: 1px solid #D0D9D4;
     border-radius: 8px;
     align-content: center;
@@ -256,21 +257,7 @@ body{
     background-size: 10%;
   }
 @media screen and (max-width: 700px){
-  .nom{
-    text-align: center;
-    font-size: 40px;
-    color: #172b4d;
-    padding-top: 0%;
-    padding-bottom: 0%;;
-    margin: 0%;
-  }
-  .métier{
-    text-align: center;
-    font-size: 40px;
-    color: #36b37e;
-    margin-top: 10px;
-    margin-bottom: 2%;
-  }
+  
   .présentation{
     background-image:url(image/autre-fond/illustration-head-line.png);
     background-repeat: no-repeat;
@@ -278,6 +265,29 @@ body{
     background-position: top center;
     place-self: center;
   }
+  .nom{
+    text-align: center;
+    font-size: 25px;
+    color: #172b4d;
+    padding-top: 0%;
+    padding-bottom: 0%;;
+    margin: 0%;
+  }
+  .métier{
+    text-align: center;
+    font-size: 25px;
+    color: #36b37e;
+    margin-top: 10px;
+    margin-bottom: 4%;
+  }
+  .paratexte{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    font-size: 10px;
+    color: #172b4d;
+    margin: 4px;
+}
   .logo{
     display: flex;
     justify-content: center;
@@ -286,11 +296,17 @@ body{
     color: #505F79;
     place-self: center;
     padding-bottom: 2%;
+  }
+  .titre-dx-et-tx-s{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: #172b4d;
   }   
     .grid-container {
       display: grid;
       grid-template-columns: 100%;
-      grid-template-rows: 474px;
+      grid-template-rows: 474x;
       place-self: center;
       justify-content: center;
     }
