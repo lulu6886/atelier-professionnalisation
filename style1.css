@@ -257,7 +257,6 @@ body{
     background-size: 10%;
   }
 @media screen and (max-width: 700px){
-  
   .présentation{
     background-image:url(image/autre-fond/illustration-head-line.png);
     background-repeat: no-repeat;
@@ -306,16 +305,96 @@ body{
     .grid-container {
       display: grid;
       grid-template-columns: 100%;
-      grid-template-rows: 474x;
+      grid-template-rows: 300px;
       place-self: center;
       justify-content: center;
     }
+    .grid-item {
+      background-color: rgba(255, 255, 255, 0.8);
+      border: 1px solid #D0D9D4;
+      border-radius: 8px;
+      align-content: flex-end;
+      width: 300px;
+      height: 300px;
+    }
+    .image{
+  width: 300px;
+  height: 157px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.titre-h3{
+  font-size: 14px;
+  text-align: center;
+  color: #172b4d;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.bouton{
+  border-radius: 4px;
+  padding: 3%;
+  background-color: #36b37f;
+  color: #ffffff;
+  display: flex;
+  border: none;
+  margin: auto;
+  margin-bottom: 4%;
+}
+.bordure-conteneur{
+  background: #EBF0EE;
+  border-radius: 4px;
+  padding: 2px;
+}
     .grid-container-tx-s{
       display: grid;
       grid-template-columns: 100%;
-      grid-template-rows: 400px;
+      grid-template-rows: 300px;
       place-self: center;
       justify-content: center;
+    }
+    .grid-item-tx-s{
+      background-color: #EBF0EE;
+      border: 1px solid #D0D9D4;
+      border-radius: 8px;
+      align-content: center;
+      width: 300px;
+      height: 300px;
+    }
+    .logo-tx-s{
+      width: 60px;
+      height: 60px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 40p;
+    }
+    .h3-tx-s{
+      font-size: 14px;
+      text-align: center;
+      color: #172b4d;
+      margin-top: 20px;
+      margin-bottom: 15px;
+    }
+    .paragraphe-individuelle{
+      padding: 5px;
+      margin: 5px;
+      border-radius: 8px;
+      background-color:#ffffff ;
+    }
+    #Skills{
+      padding-bottom: 5px;
+      font-size: 14px;
+      text-align: center;
+      color: #172b4d;
+    }
+    #logo-skills{
+      width: 60px;
+      height: 60px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 20px;
     }
     #dernière-section{
       display: flex;
@@ -324,5 +403,29 @@ body{
       gap: 24px  ;
       padding-top: 80px;
       padding-bottom: 200px;
+      }
+      #text-dernière-section{
+        font-size: 18px;
+        color: #172b4d;
+        gap: 24px;
+       }
+      #mail{
+        width: 350px;
+        height: 48px;
+        border: 1px solid #D0D9D4;
+      }
+      #textarea-dernière-section{
+        width: 350px;
+        height: 114px;
+        border: 1px solid #36b37f;
+      }
+      .logo-footer{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 25px;
+        gap: 15px;
+        color: #505F79;
+        padding: 4%;
       }
   }
