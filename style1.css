@@ -46,16 +46,7 @@ body{
     text-align: center;
     align-self: center;
 }
-.paratexte-2{
-  display: flex;
-  justify-content: center;
-  width: 40%;
-  font-size: 20px;
-  color: #172b4d;
-  margin: 2px;
-  text-align: center;
-  align-self: center;
-}
+
 .logo{
     display: flex;
     justify-content: center;
@@ -144,6 +135,19 @@ body{
     color: #172b4d;
     margin-top: 5%;
     margin-bottom: 30px;
+  }
+  .paratexte-2{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    font-size: 20px;
+    color: #172b4d;
+    margin: 2px;
+    text-align: center;
+    align-self: center;
+  }
+  #bouton-t-section{
+    padding: 2px;
   }
   .h3-tx-s{
     font-size: 24px;
@@ -357,7 +361,7 @@ body{
     line-height: 32px;
     color: #172b4d;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
   }   
     .grid-container {
       display: grid;
@@ -413,6 +417,9 @@ body{
   padding: 2px;
   gap: 3px;
 }
+#bouton-t-section{
+  margin: 20px;
+}
     .grid-container-tx-s{
       display: grid;
       grid-template-columns: 327px;
@@ -424,7 +431,7 @@ body{
       background-color: #EBF0EE;
       border: 1px solid #D0D9D4;
       border-radius: 8px;
-      align-content: center;
+      align-content: space-evenly;
       width: 327px;
       height: 316px;
     }
@@ -480,23 +487,41 @@ body{
         justify-content: center;
         text-align: center;
        }
-       #First-Name{
+       #formulaire{
+        width: 684px;
+        height: 330px;
+        display: flex;
+        flex-direction: column;
+       }
+       #formulaire-partie-Fname-LName{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        margin-bottom: 20px;
+      }
+      #First-Name{
         width: 327px;
         height: 48px;
         border: 1px solid #D0D9D4;
+        align-self: center;
       }
       #Last-Name{
-        display: none;
-      }
-      #mail{
-        width: 370px;
+        width: 327px;
         height: 48px;
         border: 1px solid #D0D9D4;
+        align-self: center;
+      }
+      #mail{
+        width: 327px;
+        height: 48px;
+        border: 1px solid #D0D9D4;
+        align-self: center;
       }
       #textarea-dernière-section{
-        width: 370px;
+        width: 327px;
         height: 114px;
         border: 1px solid #36b37f;
+        align-self: center;
       }
       .logo-footer{
         display: flex;
