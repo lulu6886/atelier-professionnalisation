@@ -398,10 +398,12 @@ body{
 .language-conteneur{
   display: flex;
   flex-direction:row;
-  justify-content: space-evenly;
+  justify-content: center;
   color: #172b4d;
   font-family: Inter; 
   margin-bottom: 3%;
+  align-self: flex-end;
+  gap: 20px;
 }
 .bouton{
   border-radius: 4px;
@@ -418,6 +420,7 @@ body{
   border-radius: 4px;
   padding: 2px;
   gap: 3px;
+  font-size: 12px;
 }
 #bouton-t-section{
   margin: 20px;
@@ -452,11 +455,21 @@ body{
       margin-top: 20px;
       margin-bottom: 15px;
     }
+    .paragraphe-conteneur-tx-s{
+      display: flex;
+      flex-direction:row;
+      justify-content: center;
+      color: #36b37e;
+      flex-wrap: wrap; 
+      align-self: flex-end;
+      gap: 10px;
+    }
     .paragraphe-individuelle{
       padding: 5px;
-      margin: 5px;
+      margin: 1px;
       border-radius: 8px;
       background-color:#ffffff ;
+      font-size: 12px;
     }
     #Skills{
       padding-bottom: 2px;
