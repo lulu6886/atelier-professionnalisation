@@ -2,6 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     background-color: white;
+    overflow-x: hidden;
 }
 .head{
     display:flex;
@@ -27,7 +28,7 @@ body{
     text-align: center;
     font-size: 48px;
     color: #172b4d;
-    padding-top: 100px;
+    padding-top: 30px;
     padding-bottom: 5px;
 }
 .métier{
@@ -46,7 +47,6 @@ body{
     text-align: center;
     align-self: center;
 }
-
 .logo{
     display: flex;
     justify-content: center;
@@ -59,6 +59,7 @@ body{
 }
 .logo-hover:hover{
   opacity: 0.5;
+  color: red;
 }
 .titre-dx-et-tx-s{
     display: flex;
@@ -120,6 +121,7 @@ body{
     display: flex;
     border: none;
     margin: auto;
+    font-size: 17px;
     margin-bottom: 50px;
     margin-top: 10px;
   }
@@ -153,8 +155,8 @@ body{
     font-size: 24px;
     text-align: center;
     color: #172b4d;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
     padding-bottom: 5px;
   }
   .Skills{
@@ -171,7 +173,14 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 20px;
+  }
+  .paragraphe-indiv-languages{
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    font-size: 12px;
+    background-color:#ffffff ;
   }
   .paragraphe-conteneur-tx-s{
     display: flex;
@@ -186,6 +195,7 @@ body{
     margin: 5px;
     margin-bottom: 5px;
     border-radius: 8px;
+    font-size: 12px;
     background-color:#ffffff ;
   }
   .grid-container-tx-s{
@@ -208,7 +218,6 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 40p;
   }
   #dernière-section{
     display: flex;
