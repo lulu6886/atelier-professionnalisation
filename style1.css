@@ -357,6 +357,7 @@ body{
     line-height: 32px;
     color: #172b4d;
     text-align: center;
+    padding-bottom: 20px;
   }   
     .grid-container {
       display: grid;
@@ -391,10 +392,9 @@ body{
 .language-conteneur{
   display: flex;
   flex-direction:row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   color: #172b4d;
   font-family: Inter; 
-  gap: 8px;
   margin-bottom: 3%;
 }
 .bouton{
@@ -484,7 +484,6 @@ body{
         width: 327px;
         height: 48px;
         border: 1px solid #D0D9D4;
-        
       }
       #Last-Name{
         display: none;
