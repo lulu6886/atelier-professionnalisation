@@ -55,7 +55,9 @@ body{
     padding-top: 30px;
     gap: 15px;
     padding-bottom: 400px;
-    color: #505F79;
+}
+.logo-hover{
+  color: #03307d;
 }
 .logo-hover:hover{
   opacity: 0.5;
@@ -343,6 +345,7 @@ body{
     font-size: 20px;
     color: #172b4d;
     margin: 4px;
+    padding-bottom: 10px;
     text-align: center;
   }
   .logo{
