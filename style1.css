@@ -1,5 +1,4 @@
 body{
-  overflow-x: hidden;
   background-color: white;
 }
 main{
@@ -60,14 +59,13 @@ main{
     padding-top: 30px;
     gap: 15px;
     padding-bottom: 400px;
-    filter: hue-rotate(100deg);
 }
 .logo-hover{
-  color: #03307d;
+  filter: brightness(0) saturate(100%) invert(35%) sepia(22%) saturate(569%) hue-rotate(179deg) brightness(98%) contrast(91%);
 }
 .logo-hover:hover{
   opacity: 0.5;
-  color: red;
+  filter: brightness(0) saturate(100%) invert(63%) sepia(23%) saturate(1103%) hue-rotate(103deg) brightness(90%) contrast(84%);
 }
 .titre-dx-et-tx-s{
     display: flex;
